@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "resume",
         "vscode",
-        "schema"
+        "schema",
+        "theme"
     ]
 }
