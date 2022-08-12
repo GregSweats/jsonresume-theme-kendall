@@ -241,8 +241,9 @@ function render(resumeObject) {
     }
 
     resumeObject.css = fs.readFileSync(__dirname + "/style.css", "utf-8");
-    resumeObject.printcss = fs.readFileSync(__dirname + "/print.css", "utf-8");
-    var theme = fs.readFileSync(__dirname + '/resume.template', 'utf8');
+    resumeObject.printcss = fs.readFileSync(__dirname + "/style-print.css", "utf-8");
+
+    var theme = fs.readFileSync(__dirname + '/template.html', 'utf8');
     var resumeHTML = Mustache.render(theme, resumeObject);
 
 
