@@ -1,0 +1,380 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Greg Stevens",
+    "label": "Now offering & seeking talent....Full Stack, Laravel, Statamic, PHP, JS,Linux Web Server Admins, Cloud Engineers, DevOps, git, etc...",
+    "image": "",
+    "email": "greg@stevens.pro",
+    "phone": "(403) 295-2848",
+    "url": "",
+    "summary": "YouTube \"GregWorks\"\nhttps://www.youtube.com/channel/UCEOR5OVIgWpsRVZcoyz8i0Q/\n\nTwitter @DalyleDevOpsInc\nhttps://twitter.com/DalyleDevOpsInc\n\n>_Above update posted 2022-07-18_\n> Get to know me, and what I know, then get in touch to chat about how I can help you! Addicted to problem solving, so please give me some big ones.\n\n\n\nLast update from 14 months ago never happened, but leaving it there as a todo anyway :)\n\n✌\n\n// todo: Update (2?) year old info @greg (2021-05-08)\n\nProfessional Computer Geek, Type 1 Diabetic, Proud Father, Occasional Powerlifter, Meetup Addict.\nI manage Linux servers, create websites, integrate services, and create systems to help keep that under control.\nWebsite Hosting, Development (PHP, JS, CF), Project Management, DevOps.\nFavourite tools include Evernote, Sublime Text, git, Opera, and several others.\nFavourite lift is the squat.\nAndroid over iPhone.\nFeedback welcome (how am I supposed to summarize myself?!)",
+    "location": {
+      "countryCode": "US",
+      "address": "Canada"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gsteve3",
+        "url": "https://www.linkedin.com/in/gsteve3/"
+      },
+      {
+        "network": "Twitter",
+        "username": "DalyleDev",
+        "url": "https://twitter.com/DalyleDev"
+      },
+      {
+        "network": "Twitter",
+        "username": "greg403",
+        "url": "https://twitter.com/greg403"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Dalyle DevOps Inc.",
+      "position": "Founder, CEO, Full-stack Web Developer, Hostmaster",
+      "startDate": "2021-10-31",
+      "endDate": "",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/dalyle/",
+      "location": "Okotoks, Alberta, Canada"
+    },
+    {
+      "name": "Media Dog Productions",
+      "position": "Technical Director",
+      "startDate": "2015-05-31",
+      "endDate": "2021-10-31",
+      "highlights": [],
+      "url": ""
+    },
+    {
+      "name": "Media Dog Productions",
+      "position": "Lead Application Developer",
+      "startDate": "2011-03-31",g
+      "endDate": "2015-05-31",
+      "highlights": [],
+      "url": "",
+      "location": "Calgary, Canada Area"
+    },
+    {
+      "name": "Media Dog Productions",
+      "position": "Application Developer",
+      "startDate": "2004-12-31",
+      "endDate": "2011-03-31",
+      "highlights": [],
+      "url": "",
+      "location": "Calgary, Canada Area"
+    },
+    {
+      "name": "SabreTEC",
+      "position": "IT Consultant",
+      "startDate": "2003-12-31",
+      "endDate": "2011-12-31",
+      "highlights": [],
+      "url": ""
+    },
+    {
+      "name": "Nucleus Information Service Inc",
+      "position": "Technical Support",
+      "startDate": "2002-01-31",
+      "endDate": "2004-12-31",
+      "highlights": [],
+      "url": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "JDRF Canada",
+      "position": "Ambassador, Walk to Cure Diabetes, Community Outreach",
+      "startDate": "2004-07-31",
+      "endDate": "",
+      "summary": null,
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/2273379"
+    }
+  ],
+  "education": [],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Adobe Certified ColdFusion MX Developer",
+      "issuer": "Adobe",
+      "startDate": "2007-03-31"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "IT Consulting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Red Hat Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CentOS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Laravel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Representational State Transfer (REST)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XHTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Asana",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Services",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Office 365",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ubuntu",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Continuous Improvement",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object-Oriented Programming (OOP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Powerapps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Red Hat Enterprise Linux (RHEL)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "People Skills",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scrum",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "LAMP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AJAX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Automation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Hosting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ColdFusion",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Content Management Systems (CMS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Power Automate",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Dalye DevOps Inc - Experiment #1 - Can I keep paying the bills?",
+      "startDate": "2021-10-31",
+      "summary": null,
+      "url": "https://www.dalyle.ca/",
+      "endDate": "2021-10-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
