@@ -1,3 +1,13 @@
 node_modules
 npm-debug.log
 public
+
+# @GregSweats Standard Ignores
+*.draft
+.local
+
+# Ignore the built file from `resume render`
+resume.html
+
+# MS Word, Excel, etc.
+~$*.*x

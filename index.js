@@ -6,6 +6,9 @@ var Mustache = require('mustache');
 var d = new Date();
 var curyear = d.getFullYear();
 
+var MarkdownIt = require('markdown-it');
+var md = new MarkdownIt();
+
 function getMonth(startDateStr) {
     switch (startDateStr.substr(5,2)) {
     case '01':
@@ -36,6 +39,12 @@ function getMonth(startDateStr) {
 }
 
 function render(resumeObject) {
+
+    // phone_uri for <a href="tel:15554443333"> style number links.
+    resumeObject.basics.phone_url = "tel:1" + resumeObject.basics.phone.replace(/\D/g,'');
+
+    // console.debug(resumeObject);
+
 
     resumeObject.basics.capitalName = resumeObject.basics.name.toUpperCase();
     if(resumeObject.basics && resumeObject.basics.email) {
@@ -162,9 +171,9 @@ function render(resumeObject) {
             resumeObject.educationBool = true;
             _.each(resumeObject.education, function(e){
                 if( !e.area || !e.studyType ){
-                  e.educationDetail = (e.area == null ? '' : e.area) + (e.studyType == null ? '' : e.studyType);
+                    e.educationDetail = (e.area == null ? '' : e.area) + (e.studyType == null ? '' : e.studyType);
                 } else {
-                  e.educationDetail = e.area + ", "+ e.studyType;
+                    e.educationDetail = e.area + ", "+ e.studyType;
                 }
                 if (e.startDate) {
                     e.startDateYear = e.startDate.substr(0,4);
@@ -201,6 +210,9 @@ function render(resumeObject) {
                 a.year = (a.date || "").substr(0,4);
                 a.day = (a.date || "").substr(8,2);
                 a.month = getMonth(a.date || "");
+
+                // Markdown Render for simple bold in strings
+                a.summary = md.render(a.summary);
             });
         }
     }
@@ -220,6 +232,13 @@ function render(resumeObject) {
         if (resumeObject.skills[0].name) {
             resumeObject.skillsBool = true;
         }
+
+        resumeObject.skills2 = resumeObject.skills.filter((skill) => {
+            return typeof skill.name === "string" && skill.name.indexOf(/(note|comment)/) === -1;
+        });
+
+        resumeObject.skills = resumeObject.skills2;
+
     }
 
     if (resumeObject.interests && resumeObject.interests.length) {
@@ -245,7 +264,6 @@ function render(resumeObject) {
 
     var theme = fs.readFileSync(__dirname + '/template.html', 'utf8');
     var resumeHTML = Mustache.render(theme, resumeObject);
-
 
     return resumeHTML;
 };

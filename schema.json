@@ -40,8 +40,8 @@
         },
         "url": {
           "type": "string",
-          "description": "URL (as per RFC 3986) to your website, e.g. personal homepage",
-          "format": "uri"
+          "description": "URL (as per RFC 3986) to your website, e.g. https://www.example.com/",
+          "$comment": "#todo FIX: uri format not allowing `.pro` TLD e.g. https://greg.stevens.pro/\"format\": \"uri\""
         },
         "summary": {
           "type": "string",
@@ -68,6 +68,11 @@
             "region": {
               "type": "string",
               "description": "The general region where you live. Can be a US state, or a province, for instance."
+            },
+            "map_url": {
+              "type": "string",
+              "description": "URL to a Map, e.g. https://google.com/maps/asdflkjalksdjfla",
+              "format": "uri"
             }
           }
         },
