@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Greg Stevens",
-    "label": "Full Stack, Laravel, Statamic, PHP, JS,Linux Web Server Admins, Cloud Engineers, DevOps, etc...",
+    "label": "Leader, Cloud Architect, DevOps, Site Reliability Engineer, 🐧🤓",
     "image": "",
     "email": "greg@stevens.pro",
     "phone": "(403) 295-2848",
@@ -17,8 +17,13 @@
     },
     "profiles": [
       {
+        "network": "YouTube",
+        "username": "GregWorks",
+        "url": "https://www.youtube.com/channel/UCEOR5OVIgWpsRVZcoyz8i0Q/featured"
+      },
+      {
         "network": "LinkedIn",
-        "username": "gsteve3",
+        "username": "GSteve3",
         "url": "https://www.linkedin.com/in/gsteve3/"
       },
       {
@@ -27,18 +32,13 @@
         "url": "https://twitter.com/DalyleDev"
       },
       {
-        "network": "YouTube",
-        "username": "GregWorks",
-        "url": "https://www.youtube.com/channel/UCEOR5OVIgWpsRVZcoyz8i0Q/featured"
-      },
-      {
         "network": "GitHub",
         "username": "GregSweats",
         "url": "https://github.com/GregSweats"
       },
       {
         "network": "Instagram",
-        "username": "diabefit",
+        "username": "Diabefit",
         "url": "https://www.instagram.com/diabefit/"
       }
     ]
@@ -48,7 +48,6 @@
       "name": "Dalyle DevOps Inc.",
       "position": "Founder, CEO, Full-stack Web Developer, Hostmaster",
       "startDate": "2021-10-31",
-      "endDate": "",
       "highlights": [
         "First time truly on my own",
         "Over 10 months in business!"
@@ -101,32 +100,43 @@
       "organization": "JDRF Canada",
       "position": "Ambassador, Walk to Cure Diabetes, Community Outreach",
       "startDate": "2004-07-31",
-      "endDate": "",
-      "summary": null,
-      "highlights": [],
-      "url": "https://www.linkedin.com/company/2273379"
+      "summary": "",
+      "highlights": [
+          "2001: Family Participation at JDRF Walk for the Cure",
+          "2004: Start Helping Those Who Help Me, the JDRF"
+
+      ],
+      "url": "https://www.jdrf.ca/"
     }
   ],
   "education": [],
   "awards": [
     {
-      "date": "2019-10-03",
-      "awarder": "100% RAW",
-      "title": "World Championships 2019",
-      "summary": "2nd Place / Silver"
-    },
-    {
-      "date": "2019-04-06",
-      "awarder": "100% RAW Canada",
-      "title": "HUB Power Open",
-      "summary": "1st Place / Gold"
+      "date": "2004-05-01",
+      "awarder": "Skills Canada - Alberta",
+      "title": "Web Design and Development - 2nd Place",
+      "summary": "~16 Years Old"
     },
     {
       "date": "2007-03-31",
       "awarder": "Adobe",
       "title": "Adobe Certified ColdFusion MX Developer",
       "summary": "**Advanced** Certification Bonus"
+    },
+    {
+      "date": "2019-10-03",
+      "awarder": "100% RAW",
+      "title": "World Championships 2019",
+      "summary": "[2nd Place / Silver](https://www.openpowerlifting.org/u/gregstevens)",
+      "url": "https://www.openpowerlifting.org/u/gregstevens"
+    },
+    {
+      "date": "2019-04-06",
+      "awarder": "100% RAW Canada",
+      "title": "1st Place / Gold",
+      "summary": "HUB Power Open"
     }
+
   ],
   "certificates": [
     {
@@ -144,6 +154,55 @@
     "level": "80-100 Average WPM",
     "keywords": ["stat", "Productivity", "1337", "Office", "Collaboration"]
   },
+
+  {
+    "name": "Top 5% LinkedIn Assesments",
+    "level": "Greybeard",
+    "keywords": [
+      "HTML / 1.1M",
+      "IT Operations / 944.9k",
+      "Microsoft Outlook / 1.3M",
+      "MySQL / 674.6k",
+      "PHP / 2.9M",
+      "WordPress / 1.0M",
+      "XML / 217.9k"
+    ]
+  },
+  {
+    "name": "Top 15% LinkedIn Assesments",
+    "level": "Expert",
+    "keywords": [
+      "Linux / 4.2M",
+      "Microsoft Power BI / 600.1k"
+    ]
+  },
+  {
+    "name": "Top 30% LinkedIn Assesments",
+    "level": "Pro",
+    "keywords": [
+      "CSS / 1.6M",
+      "Cybersecurity / 824.4k",
+      "Git / 971.5k",
+      "REST APIs  / 485.3k"
+    ]
+  },
+  {
+    "name": "Top Competition Lifts",
+    "level": "70",
+    "keywords": [
+      "Squat: 485 lbs",
+      "Bench: 297.6 lbs",
+      "Deadlift: 529.1 lbs",
+      "Total: 1,311.7 lbs",
+      "Total Dots: 366.39"
+    ],
+    "url": "https://www.openpowerlifting.org/u/gregstevens"
+  },
+
+
+
+
+
     {
       "name": "IT Operations",
       "level": "Top 5% of 944,900 People Globally",
@@ -187,6 +246,10 @@
 
 
 
+
+
+
+
     {
       "name": "$comment$",
       "level": "",
@@ -198,14 +261,17 @@
       "keywords": ["IT Consulting", "Project Management"]
     },
     {
-      "name": "Web Project Management",
+      "name": "Web Development",
       "level": "XL",
       "keywords": ["Project Management", "DevOps"]
     },
     {
-      "name": "Agile Methodologies",
+      "name": "Web Project Management",
       "level": "XL",
-      "keywords": ["Project Management", "DevOps"]
+      "keywords": [
+        "Agile Methodologies",
+        "DevOps"
+      ]
     },
     {
       "name": "Red Hat Linux",
