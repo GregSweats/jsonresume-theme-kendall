@@ -10,8 +10,13 @@
   "license": "MIT",
   "dependencies": {
     "gravatar": "^1.0.6",
+    "json-2-csv": "^3.17.1",
+    "jsonresume-theme-kendall": "^0.2.0",
     "lodash": "^4.17.20",
-    "mustache": "^2.2.1"
+    "markdown-it": "^13.0.1",
+    "mustache": "^2.2.1",
+    "read-excel-file": "^5.4.5",
+    "resume-cli": "^3.0.7"
   },
   "repository": {
     "type": "git",
