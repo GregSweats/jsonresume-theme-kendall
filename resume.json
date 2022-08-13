@@ -2,15 +2,18 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Greg Stevens",
-    "label": "Now offering & seeking talent....Full Stack, Laravel, Statamic, PHP, JS,Linux Web Server Admins, Cloud Engineers, DevOps, git, etc...",
+    "label": "Full Stack, Laravel, Statamic, PHP, JS,Linux Web Server Admins, Cloud Engineers, DevOps, etc...",
     "image": "",
     "email": "greg@stevens.pro",
     "phone": "(403) 295-2848",
-    "url": "",
+    "url": "https://www.dalyle.ca/",
+    "$comment": "#todo FIX: uri format not allowing `.pro` TLD e.g. https://greg.stevens.pro/",
     "summary": "YouTube \"GregWorks\"\nhttps://www.youtube.com/channel/UCEOR5OVIgWpsRVZcoyz8i0Q/\n\nTwitter @DalyleDevOpsInc\nhttps://twitter.com/DalyleDevOpsInc\n\n>_Above update posted 2022-07-18_\n> Get to know me, and what I know, then get in touch to chat about how I can help you! Addicted to problem solving, so please give me some big ones.\n\n\n\nLast update from 14 months ago never happened, but leaving it there as a todo anyway :)\n\n✌\n\n// todo: Update (2?) year old info @greg (2021-05-08)\n\nProfessional Computer Geek, Type 1 Diabetic, Proud Father, Occasional Powerlifter, Meetup Addict.\nI manage Linux servers, create websites, integrate services, and create systems to help keep that under control.\nWebsite Hosting, Development (PHP, JS, CF), Project Management, DevOps.\nFavourite tools include Evernote, Sublime Text, git, Opera, and several others.\nFavourite lift is the squat.\nAndroid over iPhone.\nFeedback welcome (how am I supposed to summarize myself?!)",
     "location": {
-      "countryCode": "US",
-      "address": "Canada"
+      "countryCode": "",
+      "$comment": "#todo fix countryCode always using 'US'",
+      "address": "Canada",
+      "map_url": "https://www.dalyle.ca/map"
     },
     "profiles": [
       {
@@ -24,9 +27,19 @@
         "url": "https://twitter.com/DalyleDev"
       },
       {
-        "network": "Twitter",
-        "username": "greg403",
-        "url": "https://twitter.com/greg403"
+        "network": "YouTube",
+        "username": "GregWorks",
+        "url": "https://www.youtube.com/channel/UCEOR5OVIgWpsRVZcoyz8i0Q/featured"
+      },
+      {
+        "network": "GitHub",
+        "username": "GregSweats",
+        "url": "https://github.com/GregSweats"
+      },
+      {
+        "network": "Instagram",
+        "username": "diabefit",
+        "url": "https://www.instagram.com/diabefit/"
       }
     ]
   },
@@ -36,35 +49,35 @@
       "position": "Founder, CEO, Full-stack Web Developer, Hostmaster",
       "startDate": "2021-10-31",
       "endDate": "",
-      "highlights": [],
-      "url": "https://www.linkedin.com/company/dalyle/",
+      "highlights": [
+        "First time truly on my own",
+        "Over 10 months in business!"
+      ],
+      "url": "https://www.dalyle.ca/",
       "location": "Okotoks, Alberta, Canada"
     },
     {
       "name": "Media Dog Productions",
-      "position": "Technical Director",
+      "position": "IT Director",
       "startDate": "2015-05-31",
       "endDate": "2021-10-31",
       "highlights": [],
-      "url": ""
+      "url": "https://www.mediadog.ca/",
+      "location": "Calgary, AB, Canada"
     },
     {
       "name": "Media Dog Productions",
       "position": "Lead Application Developer",
-      "startDate": "2011-03-31",g
+      "startDate": "2011-03-31",
       "endDate": "2015-05-31",
-      "highlights": [],
-      "url": "",
-      "location": "Calgary, Canada Area"
+      "highlights": []
     },
     {
       "name": "Media Dog Productions",
       "position": "Application Developer",
       "startDate": "2004-12-31",
       "endDate": "2011-03-31",
-      "highlights": [],
-      "url": "",
-      "location": "Calgary, Canada Area"
+      "highlights": []
     },
     {
       "name": "SabreTEC",
@@ -72,7 +85,7 @@
       "startDate": "2003-12-31",
       "endDate": "2011-12-31",
       "highlights": [],
-      "url": ""
+      "url": "https://www.bestinbarter.com"
     },
     {
       "name": "Nucleus Information Service Inc",
@@ -80,7 +93,7 @@
       "startDate": "2002-01-31",
       "endDate": "2004-12-31",
       "highlights": [],
-      "url": ""
+      "url": "https://www.nucleus.com"
     }
   ],
   "volunteer": [
@@ -95,7 +108,26 @@
     }
   ],
   "education": [],
-  "awards": [],
+  "awards": [
+    {
+      "date": "2019-10-03",
+      "awarder": "100% RAW",
+      "title": "World Championships 2019",
+      "summary": "2nd Place / Silver"
+    },
+    {
+      "date": "2019-04-06",
+      "awarder": "100% RAW Canada",
+      "title": "HUB Power Open",
+      "summary": "1st Place / Gold"
+    },
+    {
+      "date": "2007-03-31",
+      "awarder": "Adobe",
+      "title": "Adobe Certified ColdFusion MX Developer",
+      "summary": "**Advanced** Certification Bonus"
+    }
+  ],
   "certificates": [
     {
       "name": "Adobe Certified ColdFusion MX Developer",
@@ -105,85 +137,151 @@
   ],
   "publications": [],
   "skills": [
+
+
+{
+    "name": "130 WPM Top Typing Speed",
+    "level": "80-100 Average WPM",
+    "keywords": ["stat", "Productivity", "1337", "Office", "Collaboration"]
+  },
+    {
+      "name": "IT Operations",
+      "level": "Top 5% of 944,900 People Globally",
+      "keywords": ["IT"]
+    },
+    {
+      "name": "HTML",
+      "level": "Top 5% of 1.1M People Assessed on LinkedIn",
+      "keywords": ["WebDev"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Top 5% of 674.7k People  on LinkedIn",
+      "keywords": ["WebDev"]
+    },
+    {
+      "name": "PHP",
+      "level": "Top 5% of 2.9M People  on LinkedIn",
+      "keywords": ["WebDev"]
+    },
+    {
+      "name": "WordPress",
+      "level": "Top 5% of 1.0M People  on LinkedIn",
+      "keywords": ["WebDev"]
+    },
+    {
+      "name": "XML",
+      "level": "Top 5% of 217.9k People  on LinkedIn",
+      "keywords": ["WebDev"]
+    },
+
+    {
+      "name": "Microsoft Outlook",
+      "level": "Top 5% of 1.3M People  on LinkedIn",
+      "keywords": ["Productivity", "Office", "Collaboration"]
+    },
+
+
+
+
+
+
+
+    {
+      "name": "$comment$",
+      "level": "",
+      "keywords": ["IT Consulting", "Project Management"]
+    },
     {
       "name": "IT Consulting",
-      "level": "",
-      "keywords": []
+      "level": "XL",
+      "keywords": ["IT Consulting", "Project Management"]
     },
     {
       "name": "Web Project Management",
-      "level": "",
-      "keywords": []
+      "level": "XL",
+      "keywords": ["Project Management", "DevOps"]
     },
     {
       "name": "Agile Methodologies",
-      "level": "",
-      "keywords": []
+      "level": "XL",
+      "keywords": ["Project Management", "DevOps"]
     },
     {
       "name": "Red Hat Linux",
-      "level": "",
-      "keywords": []
+      "level": "XXL",
+      "keywords": ["Linux Sys Admin", "DevOps"]
     },
     {
       "name": "HTML5",
-      "level": "",
-      "keywords": []
+      "level": "XXL",
+      "keywords": ["Web Dev"]
     },
     {
       "name": "CSS",
-      "level": "",
-      "keywords": []
+      "level": "XXL",
+      "keywords": ["Web Dev"]
     },
     {
       "name": "Node.js",
-      "level": "",
-      "keywords": []
+      "level": "L",
+      "keywords": ["Modern Web Dev"]
     },
     {
       "name": "CentOS",
-      "level": "",
-      "keywords": []
+      "level": "XXL",
+      "keywords": ["Linux Sys Admin", "DevOps"]
     },
     {
       "name": "DevOps",
-      "level": "",
-      "keywords": []
+      "level": "XL",
+      "keywords": ["DevOps"]
     },
     {
       "name": "Laravel",
       "level": "",
-      "keywords": []
+      "keywords": ["Full-stack Web Dev"]
     },
     {
       "name": "Representational State Transfer (REST)",
       "level": "",
-      "keywords": []
+      "keywords": ["DevOps"]
     },
     {
       "name": "Full-Stack Development",
       "level": "",
-      "keywords": []
+      "keywords": ["DevOps", "Modern Web Dev"]
     },
     {
       "name": "XHTML",
       "level": "",
-      "keywords": []
+      "keywords": ["Web Dev"]
     },
+
+
+
+
+
+
     {
       "name": "Asana",
       "level": "",
-      "keywords": []
+      "keywords": ["Project Management"]
     },
+
+
+
+
+
     {
       "name": "Web Services",
       "level": "",
-      "keywords": []
+      "keywords": ["API", "Web Dev"]
     },
     {
       "name": "Management",
       "level": "",
-      "keywords": []
+      "keywords": ["Project Management", "People Management"]
     },
     {
       "name": "XML",

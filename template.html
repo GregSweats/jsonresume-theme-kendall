@@ -44,6 +44,9 @@
           </div>
           {{/basics.summary}}
           {{#workBool}}
+
+
+
           <!-- WORK EXPERIENCE -->
           <div class="box">
             <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
@@ -53,32 +56,29 @@
                   <div class="details">
                     <div class="where">
                       {{name}}
-                      {{#location}}
-                      <div class="pull-right">
-                        {{location}}
+
+                      <div class="pull-right text-right">
+                        {{#url}}
+                          <a href="{{url}}" target= "_blank"><i class="fas fa-globe ico"></i> {{url}}</a>
+                        {{/url}}
+                        <div class="location">
+                          {{location}}
+                        </div>
                       </div>
-                      {{/location}}
                     </div>
-                    {{#description}}
-                    <div class="description">
-                      {{description}}
-                    </div>
-                    {{/description}}
-                    {{#url}}
-                    <div class="address">
-                      <a href="{{url}}" target= "_blank"><i class="fas fa-globe ico"></i> {{url}}</a>
-                    </div>
-                    {{/url}}
+                    <div class="position">{{position}}</div>
                     <div class="year">{{startDateMonth}}{{startDateYear}} – {{endDateMonth}}{{endDateYear}}</div>
+
+
+
                   </div>
                 </div>
                 <div class="row">
                   <div class="job-details col-xs-11">
-                    <div class="profession">{{position}}</div>
                     <div class="description">
                       {{{summary}}}
                       {{#boolHighlights}}
-                      <div class="highlights">Highlights</div>
+                      <!-- <div class="highlights">Highlights</div> -->
                       <ul class="list-group">
                         {{#highlights}}
                         <li class="list-group-item">{{{.}}}</li>
@@ -92,8 +92,13 @@
             {{/work}}
           </div>
           {{/workBool}}
-          {{#awardsBool}}
+
+
+
+
+
           <!-- AWARDS -->
+          {{#awardsBool}}
           <div class="box">
             <h2><i class="fas fa-certificate ico"></i> Awards</h2>
             <ul id="awards" class="clearfix">
@@ -110,8 +115,12 @@
             </ul>
           </div>
           {{/awardsBool}}
-          {{#volunteerBool}}
+
+
+
+
           <!-- VOLUNTEER -->
+          {{#volunteerBool}}
           <div class="box">
             <h2><i class= "fas fa-users ico"></i> Volunteer</h2>
             {{#volunteer}}
@@ -148,6 +157,12 @@
           </div>
           {{/volunteerBool}}
           {{#projectsBool}}
+
+
+
+
+
+
           <!-- PROJECTS -->
           <div class="box">
             <h2><i class= "fas fa-code-branch ico"></i> Projects</h2>
@@ -162,6 +177,12 @@
           {{/projectsBool}}
         </div>
         <div class="col-xs-12 col-sm-5">
+
+
+
+
+
+
           <!-- CONTACT -->
           <div class="box clearfix">
             <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
@@ -175,7 +196,14 @@
             {{#basics.phone}}
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fas fa-phone fa-fw"></span></div>
-              <div class="title only pull-right">{{basics.phone}}</div>
+              <div class="title only pull-right">
+                {{#basics.phone_url}}
+                  <a href="{{basics.phone_url}}">{{basics.phone}}</a>
+                {{/basics.phone_url}}
+                {{^basics.phone_url}}
+                  {{basics.phone}}
+                {{/basics.phone_url}}
+              </div>
             </div>
             {{/basics.phone}}
             {{#basics.email}}
@@ -193,13 +221,26 @@
             {{#basics.profiles}}
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="{{iconClass}} fa-fw"></span></div>
-              <div class="title pull-right">{{network}}</div>
-              <div class="description pull-right"><a href="{{url}}" target="_blank">{{#username}}{{username}}{{/username}}{{^username}}{{url}}{{/username}}</a></div>
+              <!-- <div class="title pull-right">{{network}}</div> -->
+              <div class="title only description pull-right"><a href="{{url}}" target="_blank">{{#username}}{{username}}{{/username}}{{^username}}{{url}}{{/username}}</a></div>
             </div>
             {{/basics.profiles}}
           </div>
-          {{#educationBool}}
+
+
+
+
+
+
+
+
+
+
+
+
+
           <!-- EDUCATION -->
+          {{#educationBool}}
           <div class="box">
             <h2><i class="fas fa-university ico"></i> Education</h2>
             <ul id="education" class="clearfix">
@@ -236,6 +277,13 @@
           </div>
           {{/educationBool}}
           {{#skillsBool}}
+
+
+
+
+
+
+
           <!-- SKILLS -->
           <div class="box">
             <h2><i class="fas fa-tasks ico"></i> Skills</h2>

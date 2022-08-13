@@ -14,12 +14,23 @@
 		{
 			"label": "serve",
 			"type": "shell",
-			"command": "resume serve",
+			"command": "resume serve --theme .",
 			"args": [],
 			"problemMatcher": [],
 			"group": {
 				"kind": "build",
 				"isDefault": true
+			}
+		},
+		{
+			"label": "resumed",
+			"type": "shell",
+			"command": "resumed",
+			"args": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
 			}
 		},
 	]
