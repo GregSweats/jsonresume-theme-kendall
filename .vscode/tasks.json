@@ -1,26 +1,13 @@
 {
 	"version": "2.0.0",
 	"tasks": [
-		// {
-		// 	"type": "Live Preview",
-		// 	"args": [],
-		// 	"problemMatcher": [],
-		// 	"label": "Live Preview: Run Server",
-		// 	"group": {
-		// 		"kind": "build",
-		// 		"isDefault": false
-		// 	}
-		// },
 		{
 			"label": "serve",
 			"type": "shell",
 			"command": "resume serve --theme .",
 			"args": [],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
+			"group": "build"
 		},
 		{
 			"label": "resumed",
@@ -33,5 +20,16 @@
 				"isDefault": false
 			}
 		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "npm run dev-stackoverflow",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
 	]
 }

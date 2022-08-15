@@ -11,3 +11,6 @@ resume.html
 
 # MS Word, Excel, etc.
 ~$*.*x
+
+.vercel
+*.pdf

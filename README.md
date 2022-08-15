@@ -1,3 +1,11 @@
+npm install https://github.com/<username>/<repository>/tarball/<branch>
+
+
+npm install https://github.com/gregsweats/jsonresume-theme-stackoverflow/tarball/
+
+
+
+
 # jsonresume-theme-kendall
 
 A theme for the [JSONResume](https://github.com/jsonresume/resume-schema) schema, that relies on Bootstrap and FontAwesome, added with some personal flair.

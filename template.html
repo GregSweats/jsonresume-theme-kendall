@@ -25,7 +25,8 @@
             <!-- PHOTO (AVATAR) -->
             {{#photo}}
             <div id="photo">
-              <img src="{{photo}}" alt="avatar">
+              <img src="{{photo}}" alt="Photo">
+              {{photo}}
             </div>
             {{/photo}}
             <div id="text-header" {{^photo}}style="margin-top: 90px;"{{/photo}}>
@@ -127,9 +128,9 @@
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
-                    <div class="where">{{organization}}</div>
+                    <div class="organization">{{organization}}</div>
                     {{#url}}
-                    <div class="address">
+                    <div class="url pull-right text-right">
                       <a href="{{url}}" target= "_blank"><i class="fas fa-globe ico"></i> {{url}}</a>
                     </div>
                     {{/url}}

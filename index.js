@@ -12,29 +12,29 @@ var md = new MarkdownIt();
 function getMonth(startDateStr) {
     switch (startDateStr.substr(5,2)) {
     case '01':
-        return "January ";
+        return "Jan ";
     case '02':
-        return "February ";
+        return "Feb ";
     case '03':
-        return "March ";
+        return "Mar ";
     case '04':
-        return "April ";
+        return "Apr ";
     case '05':
         return "May ";
     case '06':
-        return "June ";
+        return "Jun ";
     case '07':
-        return "July ";
+        return "Jul ";
     case '08':
-        return "August ";
+        return "Aug ";
     case '09':
-        return "September ";
+        return "Sep ";
     case '10':
-        return "October ";
+        return "Oct ";
     case '11':
-        return "November ";
+        return "Nov ";
     case '12':
-        return "December ";
+        return "Dec ";
     }
 }
 
@@ -54,9 +54,14 @@ function render(resumeObject) {
                         d: 'mm'
                     });
     }
-    if (resumeObject.basics.image || resumeObject.basics.gravatar) {
-        resumeObject.photo = resumeObject.basics.image ? resumeObject.basics.image : resumeObject.basics.gravatar;
-    }
+
+
+
+    // if (resumeObject.basics.image || resumeObject.basics.gravatar) {
+    //     resumeObject.photo = resumeObject.basics.image ? resumeObject.basics.image : resumeObject.basics.gravatar;
+    // }
+
+    resumeObject.photo = resumeObject.basics.image
 
     _.each(resumeObject.basics.profiles, function(p){
         switch(p.network.toLowerCase()) {

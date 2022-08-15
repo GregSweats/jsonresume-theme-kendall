@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Greg Stevens",
+    "name": "Greg Stevens adf",
     "label": "Leader 💯 DevOps Enthusiast 🔁 Cloud Architect 🤓 Site Reliability Engineer 🎯 Father 🧔 Diabetic 💉 Lifter 💪",
-    "image": "//gist.githubusercontent.com/GregSweats/bcd271ed47623433ae10c533c5a92408/raw/ec77b7ed963fe24d9103084790dd4cecbf2dc193/profile.jpg",
-    "picture": "//gist.githubusercontent.com/GregSweats/bcd271ed47623433ae10c533c5a92408/raw/ec77b7ed963fe24d9103084790dd4cecbf2dc193/profile.jpg",
+    "image": "//raw.githubusercontent.com/GregSweats/gregs-resume/develop/img/profile.jpg",
+    "picture": "//raw.githubusercontent.com/GregSweats/gregs-resume/develop/img/profile.jpg",
     "email": "greg@stevens.pro",
     "phone": "(403) 295-2848",
     "url": "https://www.dalyle.ca/",
@@ -47,7 +47,13 @@
         "network": "Instagram",
         "username": "Diabefit",
         "url": "https://www.instagram.com/diabefit/"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "",
+        "url": "https://stackoverflow.com/users/269078/greg-stevens"
       }
+
     ]
   },
   "work": [
@@ -120,7 +126,7 @@
     {
       "date": "2004-05-01",
       "awarder": "Skills Canada, Alberta",
-      "title": "🥈 Provincial Skills Competition (2nd)",
+      "title": "🗺 Provincial Skills Compeition (2nd 🥈)",
       "summary": "Web Design & Development"
     },
     {
@@ -129,49 +135,19 @@
       "title": "🖼 Adobe Certified ColdFusion MX Developer (Advanced)",
       "summary": "\"Advanced\" Certification Surprise Extra for Exceeding a Certain Score"
     },
-
-
-
-
     {
-      "title": "🥇 Peak Power Open (1st)",
-      "date": "2015-10-24",
-      "awarder": "💯 RAW-CAN",
-      "summary": "Squat 175 | Bench 110 | Deadlift 195 | Total 480 Kg"
-    },
-    {
-      "title": "🥉 Prairie Power Open (3rd)",
-      "date": "2016-01-09",
-      "awarder": "💯 RAW-CAN",
-      "summary": "Squat 192.5 | Bench 120 | Deadlift 230 | Total 542.5 Kg"
-    },
-    {
-      "title": "🥈 Prairie Power Open (2nd)",
-      "date": "2017-03-18",
-      "awarder": "💯 RAW-CAN",
-      "summary": "Squat 205 | Bench 120 | Deadlift 232.5 | Total 557.5 Kg"
-    },
-    {
-      "title": "🥇 Alberta Provincials (1st)",
-      "date": "2018-05-05",
-      "awarder": "💯 RAW-CAN",
-      "summary": "Squat 220 | Bench 135 | Deadlift 240 | Total 595 Kg"
-    },
-    {
-      "title": "🥇 Hub Power Open (1st)",
-      "date": "2019-04-06",
-      "awarder": "💯 RAW-CAN",
-      "summary": "Squat 212.5 | Bench 135 | Deadlift 232.5 | Total 580 Kg"
-    },
-    {
-      "title": "🥈 World Championships (2nd)",
       "date": "2019-10-03",
-      "awarder": "💯 RAW",
-      "summary": "Squat 212.5 | Bench 127.5 | Deadlift 230 | Total 570 Kg"
+      "awarder": "100% RAW",
+      "title": "💪 World Championships 2019 (2nd 🥈)",
+      "summary": "[](https://www.openpowerlifting.org/u/gregstevens)",
+      "url": "https://www.openpowerlifting.org/u/gregstevens"
+    },
+    {
+      "date": "2019-04-06",
+      "awarder": "100% RAW Canada",
+      "title": "💪 HUB Power Open (1st 🥇)",
+      "summary": ""
     }
-
-
-
   ],
   "certificates": [
     {
@@ -262,6 +238,49 @@
       ]
     },
     {
+      "name": "Web Development",
+      "level": "🧙‍♂️ Greybeard",
+      "keywords": [
+        "Project Management",
+        "DevOps",
+        "Git",
+        "Representational State Transfer (REST)",
+        "Full-Stack Development",
+        "Web Services",
+        "XML",
+        "PHP",
+        "Continuous Improvement",
+        "Object-Oriented Programming (OOP)",
+        "SQL",
+        "JSON"
+      ]
+    },
+    {
+      "name": "Web Hosting Services",
+      "level": "🧙‍♂️ Greybeard",
+      "keywords": [
+        "Email Hosting",
+        "Web Hosting",
+        "Apache",
+        "Nginx",
+        "LiteSpeed / OLS"
+      ]
+    },
+    {
+      "name": "Web Project Management",
+      "level": "💼 Pro",
+      "keywords": [
+        "Agile",
+        "DevOps",
+        "Agile / Traditional Hybrid",
+        "SAFe",
+        "Scrum",
+        "Estimation",
+        "Project Budget",
+        "Time Tracking"
+      ]
+    },
+    {
       "name": "🐧 Linux",
       "level": "🧙‍♂️ Greybeard",
       "keywords": [
@@ -285,7 +304,7 @@
       ]
     },
     {
-      "name": "✅ Testing & QA",
+      "name": "Testing & QA",
       "level": "🐱‍💻 Master 1337",
       "keywords": [
         "Insomnia REST/HTTP Tool",
@@ -297,18 +316,7 @@
       ]
     },
     {
-      "name": "🎓 Knowledge Mgmt",
-      "level": "💼 Pro",
-      "keywords": [
-        "Notion",
-        "Asana",
-        "Obsidian",
-        "Jira",
-        "Atlassian"
-      ]
-    },
-    {
-      "name": "🔀 Agile Methodologies",
+      "name": "Agile Methodologies",
       "level": "💼 Pro",
       "keywords": [
         "Agile Budgeting Techniques",
@@ -319,6 +327,17 @@
         "Lean",
         "Scrum",
         "SAFe (Scaled Agile Framework)"
+      ]
+    },
+    {
+      "name": "Knowledge Management",
+      "level": "💼 Pro",
+      "keywords": [
+        "Notion",
+        "Asana",
+        "Obsidian",
+        "Jira",
+        "Atlassian"
       ]
     },
     {
@@ -344,33 +363,9 @@
       ]
     },
     {
-      "name": "🌐 Content Management Systems (CMS)",
-      "level": "🤯 Expert",
+      "name": "👷‍♀️ Web Development #WebDev",
+      "level": "",
       "keywords": [
-        "WordPress",
-        "Statamic",
-        "Various Headless CMS (Hugo, 11ty, Jekyll, Mkdocs, ...)",
-        "Conductor CMS - My Former Agency's Proprietary CFML CMS"
-      ]
-    },
-    {
-      "name": "👷‍♀️ Web Development",
-      "level": "🧙‍♂️ Greybeard",
-      "keywords": [
-        "Project Management",
-        "DevOps",
-        "Git",
-        "Representational State Transfer (REST)",
-        "Full-Stack Development",
-        "Web Services",
-        "XML",
-        "PHP",
-        "Continuous Improvement",
-        "Object-Oriented Programming (OOP)",
-        "SQL",
-        "JSON",
-
-
         "HTML5 / xHTML",
         "CSS",
         "Node.js",
@@ -384,33 +379,18 @@
       ]
     },
     {
-      "name": "🖥 Web Hosting Services",
-      "level": "🧙‍♂️ Greybeard",
+      "name": "🌐 Content Management Systems (CMS)",
+      "level": "🤯 Expert",
       "keywords": [
-        "Email Hosting",
-        "Web Hosting",
-        "Apache",
-        "Nginx",
-        "LiteSpeed / OLS"
+        "WordPress",
+        "Statamic",
+        "Various Headless CMS (Hugo, 11ty, Jekyll, Mkdocs, ...)",
+        "Conductor CMS - My Former Agency's Proprietary CFML CMS"
       ]
     },
     {
-      "name": "✅ Web Project Management",
-      "level": "💼 Pro",
-      "keywords": [
-        "Agile",
-        "DevOps",
-        "Agile / Traditional Hybrid",
-        "SAFe",
-        "Scrum",
-        "Estimation",
-        "Project Budget",
-        "Time Tracking"
-      ]
-    },
-    {
-      "name": "📜 The Big List of Keywords",
-      "level": "_(Sorry, here for Applicant Tracking Systems)_",
+      "name": "📜 The Big List of Keywords (Sorry)",
+      "level": "",
       "keywords": [
         "Red Hat Enterprise Linux (RHEL)",
         "Web Design",
@@ -426,73 +406,27 @@
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "🍁 English",
       "fluency": "Native Speaker"
-    },
-    {
-      "language": "ColdFusion (CFML)",
-      "fluency": "⭐⭐⭐⭐⭐"
-    },
-    {
-      "language": "PHP",
-      "fluency": "⭐⭐⭐⭐⭐"
-    },
-    {
-      "language": "JavaScript",
-      "fluency": "Master ⭐⭐⭐⭐⭐"
-    },
-    {
-      "language": "HTML, CSS, etc.",
-      "fluency": "Master ⭐⭐⭐⭐⭐"
-    },
-    {
-      "language": "HTTP(S), APIs",
-      "fluency": "Master ⭐⭐⭐⭐⭐"
-    },
-    {
-      "language": "TypeScript",
-      "fluency": "Expert ⭐⭐⭐"
-    },
-    {
-      "language": "Perl",
-      "fluency": "⭐⭐⭐"
-    },
-    {
-      "language": "SQL",
-      "fluency": "⭐⭐⭐⭐⭐"
-    },
-    {
-      "language": "Power Query / M",
-      "fluency": "⭐⭐⭐⭐⭐"
-    },
-    {
-      "language": "R",
-      "fluency": "⭐"
-    },
-    {
-      "language": "Rust",
-      "fluency": "⭐"
     }
-
   ],
   "interests": [
     {
       "name": "Wildlife",
       "keywords": [
-        "Bearded Dragons",
-        "Tegus",
-        "Savannah Monitors"
+        "Ferrets",
+        "Unicorns"
       ]
     }
   ],
   "references": [{
-    "name": "Business Analyst, Multi-Billion Dollar Corporation, 2022",
-    "reference": "...really knows his shit..."
+    "name": "Jane Doe",
+    "reference": "Reference…"
   }],
   "projects": [
     {
-      "name": "DevOps Contract (Oct 2021 - Mar 2022)",
-      "description": "Architecture & Contracting to Migrate 20+ Websites In-House",
+      "name": "Project",
+      "description": "Description…",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
@@ -507,6 +441,13 @@
       ],
       "entity": "Entity",
       "type": "application"
+    },
+    {
+      "name": "Dalye DevOps Inc - Experiment #1 - Can I keep paying the bills?",
+      "startDate": "2021-10-31",
+      "summary": null,
+      "url": "https://www.dalyle.ca/",
+      "endDate": "2021-10-31"
     }
   ],
   "meta": {

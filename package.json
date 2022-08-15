@@ -1,17 +1,21 @@
 {
   "name": "jsonresume-theme-kendall",
   "version": "0.2.0",
-  "description": "A JSON Resume theme built with bootstrap",
+  "description": "My Resume in jsonresume / Resume Schema Format",
+  "author": "Greg Stevens",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run dev-stackoverflow",
+    "dev-stackoverflow": "resume serve --theme=stackoverflow"
   },
-  "author": "M. Adam Kendall",
-  "license": "MIT",
+  "postinstall": "npx patch-package",
   "dependencies": {
     "gravatar": "^1.0.6",
     "json-2-csv": "^3.17.1",
     "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-stackoverflow": "github:gregsweats/jsonresume-theme-stackoverflow",
     "lodash": "^4.17.20",
     "markdown-it": "^13.0.1",
     "mustache": "^2.2.1",
@@ -20,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/linuxbozo/jsonresume-theme-kendall.git"
+    "url": "https://github.com/gregsweats/gregs-resume"
   },
   "keywords": [
     "json",
@@ -28,7 +32,11 @@
     "theme"
   ],
   "bugs": {
-    "url": "https://github.com/linuxbozo/jsonresume-theme-kendall/issues"
+    "url": "https://github.com/gregsweats/gregs-resume/issues"
   },
-  "homepage": "https://github.com/linuxbozo/jsonresume-theme-kendall"
+  "homepage": "https://github.com/gregsweats/gregs-resume",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-json": "^2.0.0"
+  }
 }

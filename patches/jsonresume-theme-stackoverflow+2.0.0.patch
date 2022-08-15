@@ -1,0 +1,27 @@
+diff --git a/node_modules/jsonresume-theme-stackoverflow/style.css b/node_modules/jsonresume-theme-stackoverflow/style.css
+index 9c57ea2..b47680e 100644
+--- a/node_modules/jsonresume-theme-stackoverflow/style.css
++++ b/node_modules/jsonresume-theme-stackoverflow/style.css
+@@ -12,7 +12,7 @@ object,
+ iframe,
+ h1,
+ h2,
+-h3,
++h3,sk
+ h4,
+ h5,
+ h6,
+@@ -554,11 +554,13 @@ section .location {
+ }
+ 
+ .level.master .bar::after,
++.level.greybeard .bar::after,
+ .level.native.speaker .bar::after {
+   background: #59c596;
+   width: 10em;
+ }
+ 
++
+ #references .item {
+   padding-left: 0.5em;
+   border-left: 5px solid #ff6d1f;
