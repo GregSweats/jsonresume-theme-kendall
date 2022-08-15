@@ -110,7 +110,8 @@
       "summary": "",
       "highlights": [
         "2001: Family Participation at JDRF Walk for the Cure",
-        "2004: Start Helping Those Who Help Me, the JDRF"
+        "2004: Start Helping Those Who Help Me, the JDRF",
+        "2011: Son Diagnosed @ 3 Years Old - Both Active JDRF Ambassadors, Public Speakers"
       ],
       "url": "https://www.jdrf.ca/"
     }
@@ -507,10 +508,37 @@
       ],
       "entity": "Entity",
       "type": "application"
+    },
+    {
+      "name": "Peters & Co",
+      "description": "",
+      "highlights": [
+        "Investment Research Updates Emailed to Clients Every Night using Custom Tools Created a Decade Ago!",
+        "User Accounts synced with custom .NET web service developed in co-ordination with Peters & Co.",
+        "Advanced Document Search",
+        "Advanced Document Search: Syncs with FileNexus web services to utilize Peters & Co’s existing document library.",
+        "Advanced Document Search: Utilizes FileNexus advanced search services when searching for text within documents. For speed, mirrors the remote FileNexus document indexes to a local MySQL database which is queried when not using a full text search.",
+        "Conference Site Manager",
+        "I was the main account manager for Peters & Co. Role involved client relations as well as new project  proposals and bidding."
+      ],
+      "keywords": [
+        "HTML"
+      ],
+      "startDate": "2006-01-01",
+      "url": "https://www.petersco.com/",
+      "roles": [
+        "Team Lead",
+        "Account Manager",
+        "Pre-sales",
+        "Technical Sales",
+        "Post-sales",
+        "On-call Support",
+        "Monitoring"
+      ]
     }
   ],
   "meta": {
-    "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    "version": "v1.0.0-alpha.1",
+    "canonical": "https://github.com/GregSweats/gregs-resume"
   }
 }
